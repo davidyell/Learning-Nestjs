@@ -1,0 +1,15 @@
+import { BetterSqlite3ConnectionOptions } from 'typeorm/driver/better-sqlite3/BetterSqlite3ConnectionOptions';
+
+const config: BetterSqlite3ConnectionOptions = {
+  name: 'default',
+  type: 'better-sqlite3',
+  fileMustExist: true,
+  database: 'database.sqlite3',
+  entities: ['dist/**/entities/*.entity.js'],
+  migrations: ['dist/db/migrations/*.js'],
+  cli: {
+    migrationsDir: 'src/db/migrations',
+  },
+};
+
+export default config;
