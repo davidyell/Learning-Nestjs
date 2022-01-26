@@ -1,5 +1,6 @@
 # Learning Nest.js
-Code from learning basic Nest.js, following the Academind tutorial 
+Code from learning basic Nest.js
 
-https://www.youtube.com/watch?v=F_oOtaxb0L8
+Basic API setup https://www.youtube.com/watch?v=F_oOtaxb0L8
+TypeORM https://www.youtube.com/watch?v=sNosL578ECo
 
