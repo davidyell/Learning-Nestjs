@@ -55,7 +55,7 @@ export class ProductsService {
   }
 
   removeProduct(productId: string) {
-    const product = this.findProductById(productId);
+    this.findProductById(productId);
     const index = this.products.findIndex((prod) => prod.id === productId);
 
     this.products.splice(index, 1);
